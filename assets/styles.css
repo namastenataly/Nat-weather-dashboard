@@ -1,0 +1,52 @@
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, Arial, sans-serif;
+  color: white;
+}
+
+#header {
+  background: linear-gradient(to right, rgba(27, 34, 226, 0.37), rgba(36, 1, 161, 0.993));
+  margin-top: 20px;
+}
+
+.card {
+  width: 15rem; 
+  margin: 0.5rem; 
+  background-color: #5a60b3fa; 
+  color: white; 
+}
+
+.list-group-item{
+  color: white;
+}
+
+.card-title {
+  font-size: 1rem; 
+}
+
+.weather-icon {
+  width: 50px; 
+  height: 50px; 
+  display: block;
+  margin: 0 auto; 
+}
+
+.list-group-item {
+  background-color: transparent; 
+  border: none; 
+}
+
+.form-label {
+  font-size: 30px; 
+  color: black;
+  font-weight: 1000;
+}
+
+.form-input {
+  background-color: #fff; 
+  border-color: #ced4da;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
